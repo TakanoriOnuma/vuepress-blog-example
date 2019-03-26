@@ -15,14 +15,15 @@ module.exports = {
       '@vuepress/blog', 
       { 
         // A custom theme is needed to use any options changing a layout used.
+        // The values used here are the same as the defaults but show how they can be changed.
 
         // Override to specify which pages should be rendered using a custom 'Post' layout.
-        postsDir: 'blog',  
+        postsDir: '_posts',  
         // Override to specify the url to use with the 'Categories' layout
-        categoryIndexPageUrl: "/categories/",
+        categoryIndexPageUrl: "/category/",
         // Override to specify the url to use with the 'Tags' layout
-        tagIndexPageUrl: "/tags/",
-        // Override to specify the 
+        tagIndexPageUrl: "/tag/",
+        // Override to specify the generated permalinks
         permalink: "/:year/:month/:day/:slug"
       }
     ]
