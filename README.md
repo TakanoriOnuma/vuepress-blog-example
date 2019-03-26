@@ -1,4 +1,4 @@
-# Vuepress Blog Plugin Example
+# vuepress-blog-plugin-example
 An example for using Vuepress blog plugin.  This plugin adds variables with posts grouped according to their category and tag frontmatter.  Pages are then rendured with this information for easier site navigation.
 
 View the tags or categories by appending [/tag/](/tag/) or [/category/](/category/) to the local webserver's path.
